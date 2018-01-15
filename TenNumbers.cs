@@ -11,14 +11,10 @@ namespace TenNumbers
         static void Main(string[] args)
         {
             int positive = 0, negative = 0;
-
-
             Console.WriteLine("Enter array lenght");
             int a = int.Parse(Console.ReadLine());
-
             Console.WriteLine("Enter " + a + " numbers:");
             int[] arr = new int[a];
-
             for (int i = 0; i < a; i++)
             {
                 arr[i] = int.Parse(Console.ReadLine());

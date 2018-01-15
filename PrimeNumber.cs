@@ -10,21 +10,16 @@ namespace PrimeNumber
     {
        public static void Main(string[] args)
         {
-            Console.WriteLine("Enter number : ");
-
+            Console.WriteLine("Enter number: ");
             int x = int.Parse(Console.ReadLine());
-
             if (x < 10 || x == 0)            {
                 Console.WriteLine("The number is prime");
             }
             else if(x>10||x<0)
             {
                 Console.WriteLine("The number isn't prime");
-
             }
-            Console.ReadKey();
-            
-        }
-        
+            Console.ReadKey();           
+        }        
     }
 }
